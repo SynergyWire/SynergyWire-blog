@@ -14,21 +14,7 @@ export default function Footer() {
         >
           <Icon name={ICON_KEYS.GITHUB} />
         </Link>
-        {/* <Link 
-          className="text-slate-400"
-          href="https://www.linkedin.com/in/luis-alexander-b83478184/" 
-          target="_blank"
-        >
-          <Icon name={ICON_KEYS.LINKEDIN} />
-        </Link>
 
-        <Link 
-          className="text-slate-400"
-          href="https://twitter.com/LuisSantiago976" 
-          target="_blank"
-        >
-          <Icon name={ICON_KEYS.TWITTER} />
-        </Link> */}
         
       </div>
     </footer>

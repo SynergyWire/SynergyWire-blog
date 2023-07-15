@@ -7,8 +7,8 @@ import '../styles/globals.css'
 
 
 export const metadata: Metadata = {
-  title: "Luis Santiago's Blog",
-  description: 'dedicated blog to talk about topics related to: tecnology, software development, frontend, backend, clean code, data structure, design patterns and also other topics more close to the life :)',
+  title: "SynergyWire Blog",
+  description: 'A blog dedicated to web development and programming in general',
 };
 
 export default function RootLayout({
@@ -19,19 +19,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>Luis Santiago&apos;s Blog</title>
+        <title>SynergyWire Blog</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="icon" href="/next.svg" />
       </Head>
       <body>
       <Header />
-        <div className="mx-auto max-w-3xl min-h-screen px-6 pt-6 flex flex-col">
+        <main className="mx-auto max-w-3xl min-h-screen px-6 pt-6 flex flex-col">
 
           <div className="py-6">
             {children}
           </div>
           <Footer />
-        </div>
+        </main>
         <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_KEY}`} />
         <Script
           id="google-initializer"
