@@ -24,8 +24,9 @@ export default function RootLayout({
         <link rel="icon" href="/next.svg" />
       </Head>
       <body>
+      <Header />
         <div className="mx-auto max-w-3xl min-h-screen px-6 pt-6 flex flex-col">
-          <Header />
+
           <div className="py-6">
             {children}
           </div>

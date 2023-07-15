@@ -1,0 +1,21 @@
+
+.responsive-menu__toggle-button{
+    display: none;
+}
+.responsive-menu__nav{
+    display: none;
+}
+
+@media screen and (max-width : 650px){
+    .responsive-menu__toggle-button{
+        display: unset;
+        cursor: pointer;
+    }
+    .responsive-menu__nav{
+        display: unset;
+        width: 300px;
+        background-color: red;
+        height: 300px;
+    }
+    
+}
