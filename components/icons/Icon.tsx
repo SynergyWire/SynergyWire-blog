@@ -1,0 +1,18 @@
+import IconGithub from './Icon-github'
+import IconLinkedin from './Icon-linkedin'
+import IconTwitter from './Icon-twitter'
+import { IconKey } from '@/utils/types'
+
+export default function Icon({ name }: { name: IconKey }) {
+  const ICONS = {
+    GITHUB: IconGithub,
+    LINKEDIN: IconLinkedin,
+    TWITTER: IconTwitter
+  }
+
+  const Icon = ICONS[name]
+
+  return (
+    <Icon />
+  )
+}
