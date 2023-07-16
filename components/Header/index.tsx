@@ -5,7 +5,6 @@ import { ICON_KEYS } from '@/utils/contants'
 import "./header.css"
 
 export default function Header() {
-
   return (
     <header className="max-w-screen border-b border-solid border-black p-8 flex justify-between content-center">
       <nav>
@@ -25,6 +24,23 @@ export default function Header() {
         <Icon name={ICON_KEYS.GITHUB} />
       </Link></div>
 
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" /></svg><input type="checkbox" id="open"/>
+        <ul>
+      <li>
+        <a href="#">
+          <i className="fa fa-home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i className="fa fa-paint-brush"></i>
+          <span>Portfolio</span>
+        </a>
+      </li>
+    </ul>
+      </div>
     </header>
   )
 }
