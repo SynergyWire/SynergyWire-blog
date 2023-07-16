@@ -1,21 +1,33 @@
 
-.responsive-menu__toggle-button{
-    display: none;
-}
-.responsive-menu__nav{
+.responsive-menu{
     display: none;
 }
 
+.responsive-menu *{
+    transition: all 0.5s;
+}
+
+
 @media screen and (max-width : 650px){
-    .responsive-menu__toggle-button{
+    .organization-link, .header-links{
+        display: none;
+    }
+    .responsive-menu{
         display: unset;
         cursor: pointer;
     }
-    .responsive-menu__nav{
-        display: unset;
-        width: 300px;
-        background-color: red;
-        height: 300px;
+
+    #toggle-button {
+        display: none;
     }
+    .responsive-menu__content{
+        display: none;
+    }
+
+    #toggle-button:checked + .responsive-menu__content {
+        display: unset;
+    }
+
+
     
 }
