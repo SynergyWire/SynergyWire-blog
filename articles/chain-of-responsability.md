@@ -3,6 +3,7 @@ title: "How to avoid if-else hell using desing patterns as a demi god"
 subtitle: "Using chain of responsability design pattern to avoid if-else hell."
 date: "2023-04-20"
 tags: "#cleanCode #designPatterns #typescript"
+author: 'Luis Santiago'
 ---
 
 As a developers we have to take many decisions while we are working in some feature, many of them are based on the story description or what the business is needing. There are many moments where the functionallity needs to get finished as soon as possible due some business requirement so that is the perfect scenario to not think what we are going to do and we start just writing the code giving as a result something called as [spaguetti code](https://en.wikipedia.org/wiki/Spaghetti_code). 

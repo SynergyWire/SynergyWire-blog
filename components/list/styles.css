@@ -1,0 +1,33 @@
+@media only screen and (min-width: 640px) {
+  .list__items--highlight:not(.list__items--1) {
+    display: grid;
+  }
+
+  .list__items--highlight.list__items--4 {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+  }
+
+  .list__items--highlight.list__items--4 .list__item:nth-child(1) {
+    grid-row: 1 / 4;
+    grid-column: 1;
+  }
+
+  :where(.list__items--highlight.list__items--4)
+  .list__item:where(.list__item:nth-child(2), .list__item:nth-child(3), .list__item:nth-child(4)) {
+    grid-column: 2;
+  }
+
+  .list__items--highlight.list__items--4 .list__item:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .list__items--highlight.list__items--4 .list__item:nth-child(3) {
+    grid-row: 2;
+  }
+
+  .list__items--highlight.list__items--4 .list__item:nth-child(4) {
+    grid-row: 3;
+  }
+}

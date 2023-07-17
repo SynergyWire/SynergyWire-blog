@@ -3,6 +3,7 @@ title: "VTEX IO SSR principles"
 subtitle: "Know everything to master how to work with SSR as properly."
 date: "2023-05-15"
 tags: "#VTEX #SSR #typescript #react"
+author: 'Luis Santiago'
 ---
 
 It is common to get stuck dealing with concepts such as server sider endering (SSR) or client side rendering (CSR). It is known as true these topics might be a huge headache if you do not how to deal with them.
