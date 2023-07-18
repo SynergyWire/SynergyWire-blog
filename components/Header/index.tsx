@@ -27,34 +27,40 @@ export default function Header() {
         </Link>
       </div>
       <label className="responsive-menu" htmlFor="toggle-button">
-        <svg
-          className="menu-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="48"
-          viewBox="0 -960 960 960"
-          width="48"
-        >
-          <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
-        </svg>
+
+
         <input type="checkbox" id="toggle-button" />
 
-        <ul className="responsive-menu__content">
-          <li>
-            <Link href={"#"}>About</Link>
-          </li>
-          <li>
-            <Link href={"#"}>Authors</Link>
-          </li>
+        <div className="responsive-menu__icon-switch">
 
-          <div>
-            <Link
-              className="text-slate-400"
-              href="https://github.com/SynergyWire"
-              target="_blank"
-            >
-              <Icon name={ICON_KEYS.GITHUB} />
+          <svg className="menu-icon-burger"
+            xmlns="http://www.w3.org/2000/svg"
+            height="48"
+            viewBox="0 -960 960 960"
+            width="48"
+          >
+            <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+          </svg>
+          <svg className="menu-icon-x"
+          xmlns="http://www.w3.org/2000/svg"
+            height="48"
+            viewBox="0 -960 960 960"
+            width="48">
+              <path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+          </svg>
+
+        </div>
+        <ul className="responsive-menu__content bg-white">
+          <li>
+            <Link className="font-bold p1 hover:text-yellow-600" href="./">
+              About
             </Link>
-          </div>
+          </li>
+          <li>
+            <Link className="font-bold p1 hover:text-yellow-600" href="./">
+              Authors
+            </Link>
+          </li>
         </ul>
       </label>
     </header>
