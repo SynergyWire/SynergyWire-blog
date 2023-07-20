@@ -1,55 +1,54 @@
 .responsive-menu {
-    display: none;
+  display: none;
 }
 
-
 @media screen and (max-width : 640px) {
+  .organization-link,
+  .header-links {
+    display: none;
+  }
 
-    .organization-link,
-    .header-links {
-        display: none;
-    }
+  .responsive-menu {
+    display: unset;
+    cursor: pointer;
+  }
 
-    .responsive-menu {
-        display: unset;
-        cursor: pointer;
-    }
+  #toggle-button {
+    display: none;
+  }
 
-    #toggle-button {
-        display: none;
-    }
+  .responsive-menu__content {
+    position: absolute;
+    transition: all 0.5s;
+    display: none;
+    width: 0px;
+    font-size: 1.5rem;
+    top: 100px;
+    height: calc(100% - 100px);
+    border: solid black 1px;
+    text-align: center;
+  }
 
-    .responsive-menu__content {
-        position: absolute;
-        transition: all 0.5s;
-        display: none;
-        width: 0px;
-        font-size: 1.5rem;
-        top: 100px;
-        height: calc(100% - 100px);
-        border: solid black 1px;
-        text-align: center;
-    }
+  .responsive-menu__content li {
+    margin: 10px 0px;
+  }
 
-    .responsive-menu__content li {
-        margin: 10px 0px;
-    }
+  .menu-icon-x {
+    display: none;
+  }
 
-    .menu-icon-x  {
-        display: none;
-    }
+  #toggle-button:checked+.responsive-menu__icon-switch+.responsive-menu__content {
+    display: unset;
+    padding: 20px 40px;
+    width: 100%;
+    right: 0;
+  }
 
-    #toggle-button:checked + .responsive-menu__icon-switch +.responsive-menu__content {
-        display: unset;
-        padding: 20px 40px;
-        width: 100%;
-        right: 0;
-    }
+  #toggle-button:checked+.responsive-menu__icon-switch .menu-icon-burger {
+    display: none;
+  }
 
-    #toggle-button:checked + .responsive-menu__icon-switch .menu-icon-burger  {
-        display: none;
-    }
-    #toggle-button:checked + .responsive-menu__icon-switch .menu-icon-x  {
-        display: unset;
-    }
+  #toggle-button:checked+.responsive-menu__icon-switch .menu-icon-x {
+    display: unset;
+  }
 }

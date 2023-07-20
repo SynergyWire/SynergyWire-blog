@@ -12,43 +12,22 @@ export default function Header() {
           About
         </Link>
       </nav>
-
       <h1 className="text-2xl font-bold hover:text-yellow-600">
         <Link href="/">Synergy Wire Blog </Link>
       </h1>
-
       <div>
         <Link
           className="text-slate-400 organization-link"
           href="https://github.com/SynergyWire"
-          target="_blank"
-        >
+          target="_blank">
           <Icon name={ICON_KEYS.GITHUB} />
         </Link>
       </div>
       <label className="responsive-menu" htmlFor="toggle-button">
-
-
         <input type="checkbox" id="toggle-button" />
-
         <div className="responsive-menu__icon-switch">
-
-          <svg className="menu-icon-burger"
-            xmlns="http://www.w3.org/2000/svg"
-            height="48"
-            viewBox="0 -960 960 960"
-            width="48"
-          >
-            <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
-          </svg>
-          <svg className="menu-icon-x"
-          xmlns="http://www.w3.org/2000/svg"
-            height="48"
-            viewBox="0 -960 960 960"
-            width="48">
-              <path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
-          </svg>
-
+        <Icon  name={ICON_KEYS.MENU} ></Icon>
+          <Icon name={ICON_KEYS.CLOSE} ></Icon>
         </div>
         <ul className="responsive-menu__content bg-white">
           <li>
@@ -64,5 +43,5 @@ export default function Header() {
         </ul>
       </label>
     </header>
-  );
+  )
 }
