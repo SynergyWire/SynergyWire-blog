@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Link from "next/link";
 import Icon from "../icons/Icon";
 import { ICON_KEYS } from "@/utils/contants";

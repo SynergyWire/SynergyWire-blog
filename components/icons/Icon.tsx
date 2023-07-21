@@ -3,7 +3,7 @@ import IconLinkedin from './Icon-linkedin'
 import IconTwitter from './Icon-twitter'
 import IconMenu from './Icon-menu'
 import { IconKey } from '@/utils/types'
-import IconX from './Icon-x'
+import IconClose from './Icon-close'
 
 export default function Icon({ name }: { name: IconKey }) {
   const ICONS = {
@@ -11,7 +11,7 @@ export default function Icon({ name }: { name: IconKey }) {
     LINKEDIN: IconLinkedin,
     TWITTER: IconTwitter,
     MENU: IconMenu,
-    CLOSE: IconX
+    CLOSE: IconClose
   }
 
   const Icon = ICONS[name]
