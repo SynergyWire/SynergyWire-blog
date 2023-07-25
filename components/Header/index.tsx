@@ -1,8 +1,8 @@
 import React from 'react';
-import Link from "next/link";
-import Icon from "../icons/Icon";
-import { ICON_KEYS } from "@/utils/contants";
-import "./header.css";
+import Link from 'next/link';
+import Icon from '../icons/Icon';
+import { ICON_KEYS } from '@/utils/contants';
+import './header.css';
 
 export default function Header() {
   return (
