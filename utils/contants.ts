@@ -9,5 +9,7 @@ export const COMMON_SVG_PROPS = {
 export const ICON_KEYS: Record<IconKey, IconKey> = {
   GITHUB: 'GITHUB',
   LINKEDIN: 'LINKEDIN',
-  TWITTER: 'TWITTER'
+  TWITTER: 'TWITTER',
+  MENU: "MENU",
+  CLOSE: "CLOSE"
 }

@@ -1,1 +1,1 @@
-export type IconKey = 'GITHUB' | 'LINKEDIN' | 'TWITTER'
+export type IconKey = 'GITHUB' | 'LINKEDIN' | 'TWITTER' | 'MENU' | 'CLOSE' 
