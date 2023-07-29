@@ -18,7 +18,7 @@ Compound components will bring some order to your code, this will ensure your co
 
 **Reusability:** Compound components promote reusability, enabling the creation of versatile components that can be employed in various parts of an application.
 
-**Clean and encapsulated API:** By structuring components as compound components, you can abstrac the functionality of it behind a clean and concise API to users ,  making the component easier to understand and interact with.
+**Clean and encapsulated API:** By structuring components as compound components, you can abstrac the functionality of it behind a clean and concise API to users, making the component easier to understand and interact with.
 
 **Flexibility:** Depending on the design of the component, users can customize the behavior and appearance of compound components by passing different props, enhancing the component's flexibility and encouraging users to reuse it more often.
 
