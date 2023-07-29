@@ -143,6 +143,6 @@ in this article we have reviewed the basic and most shallow aspects of compound 
 
 Several user interface libraries like Reach UI or Material UI  patterns in order to make components reusable and flexible and on top of that with a clean API which facilitating the usage of them, you can also achieve the same for our own code if we apply the same pattern.
 
-on the long run,  writing clean code without a proper structure will increase in difficulty and the architecture of your code will start eroding with each new change, which is something quite time consuming and exhausting to fix, prevention is the best approach and UI patterns will prevent you from falling into a refactor/fix hell, patterns are your friends.
+On the long run, writing clean code without a proper structure will increase in difficulty and the architecture of your code will start eroding with each new change, which is something quite time consuming and exhausting to fix, prevention is the best approach and UI patterns will prevent you from falling into a refactor/fix hell, patterns are your friends.
 
 
