@@ -106,7 +106,7 @@ const AddToCart: React.FC = (second) => {
 export default CompoundCard;
 ```
 
-Now, we will take advantage of a Javascript feature : functions are also objects. we are going to attatch each of our component parts to the main "CompoundCard" component as an object property, just like this: 
+Now, we will take advantage of a Javascript feature: functions are also objects. We are going to attatch each of our component parts to the main "CompoundCard" component as an object property, just like this: 
 
 ```ts 
 CompoundCard.Header = Header
