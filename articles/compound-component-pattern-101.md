@@ -6,7 +6,7 @@ tags: "#React #typescript #designPatterns #fundamentals"
 author : "Mateo Sierra"
 ---
 
-The web has evolved and the way we build websites has followed , with the goal of being able to develop bigger and more complex user interfaces(UI), developers started dividing the user interface into smaller fragments called  components, as a result of this there was a need of ways of creating and  composing components in a predictible way.
+The web has evolved and the way we build websites has followed, with the goal of being able to develop bigger and more complex user interfaces(UI), developers started dividing the user interface into smaller fragments called  components, as a result of this there was a need of ways of creating and composing components in a predictable way.
 
 React's Compound Component Pattern is a powerful technique which allows developers to build flexible and reusable components by combining fragments of UI together. We'll explore what compound components are, why we use them, the advantages they offer, and we'll walk through a simple example which will teach you how to write them and take advantage of this pattern.
 
