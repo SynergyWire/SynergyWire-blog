@@ -14,7 +14,7 @@ React's Compound Component Pattern is a powerful technique which allows develope
 
 It's incredibly easy to write messy code, you start without any kind of structure in mind and you will end up your coding session with working features but, the next day adding new features to your code will feel more and more difficult, and the following days it will only get worse.
 
-Compound components will bring some order to your code, this will ensure your code stays managable. allowing you to fix bugs, add feautures and even refactor it without much struggle on the long run, let's review the advantages
+Compound components will bring some order to your code, this will ensure your code stays managable. allowing you to fix bugs, add feautures and even refactor it without much struggle on the long run, let's review the advantages.
 
 **Reusability:** Compound components promote reusability, enabling the creation of versatile components that can be employed in various parts of an application.
 
