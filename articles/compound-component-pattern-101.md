@@ -116,7 +116,7 @@ CompoundCard.Price = Price
 CompoundCard.AddToCart = AddToCart
 ```
 
-It might look weird if you are not familiarized with how javascript works, but in this implementation we can start using the compound card component with a more interesting API 
+It might look weird if you are not familiarized with how javascript works, but in this implementation we can start using the compound card component with a more interesting API.
 
 ```ts
 <CompoundCard>
