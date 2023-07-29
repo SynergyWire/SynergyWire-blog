@@ -25,7 +25,7 @@ Compound components will bring some order to your code, this will ensure your co
 
 ## Making a compound component
 
-Imagine you are developing a card component for an E-commerce website, this component will have a title, a description and a price, just like in this picture : 
+Imagine you are developing a card component for an E-commerce website, this component will have a title, a description and a price, just like in this picture: 
 
 ![card-component.jpeg](/images/articles/compound-component-pattern/card-component.jpeg)
 
