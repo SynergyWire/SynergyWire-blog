@@ -1,4 +1,6 @@
 import React from "react";
+import Icon from "@/components/icons/Icon";
+import "./styles.css";
 
 const page = () => {
   interface Author {
@@ -6,16 +8,17 @@ const page = () => {
     pictureUrl: string;
     introduction: string;
     socials: {
-      linkedIn: string;
-      github: string;
+      linkedIn?: string;
+      github?: string;
+      personalWebsite?: string;
     };
   }
 
   const authorList: Author[] = [
     {
-      name: "Sierra",
+      name: "Mateo Sierra",
       pictureUrl: "https://avatars.githubusercontent.com/u/71465895?v=4",
-      introduction: "I am a funny guy",
+      introduction: "I am a 🤡",
       socials: {
         linkedIn: "https://www.linkedin.com/in/mateo-sierra-4b70951b7/",
         github: "https://github.com/Sierra9999",
@@ -23,7 +26,7 @@ const page = () => {
     },
     {
       name: "Luis Alexander",
-      introduction: "I am a funny guy",
+      introduction: "I am a 🤡",
       pictureUrl: "https://avatars.githubusercontent.com/u/26258524?v=4",
       socials: {
         linkedIn: "https://www.linkedin.com/in/luis-alexander-b83478184/",
@@ -33,8 +36,10 @@ const page = () => {
   ];
 
   const AuthorCard = (author: Author) => {
+    const { github, linkedIn } = author.socials;
+
     return (
-      <section className="author-card w-6/12">
+      <section className="author-card w-5/12">
         <h2 className="author-card__name">{author.name}</h2>
         <img
           src={author.pictureUrl}
@@ -42,7 +47,26 @@ const page = () => {
           className="author-card__picture"
         />
         <p className="author-card__introduction">{author.introduction}</p>
-        <section className="author-card__socials"></section>
+        <section className="author-card__socials">
+          {github ? (
+            <a
+              className="author-card__socials__anchor"
+              target="_blank"
+              href={github}
+            >
+              <Icon name={"GITHUB"}></Icon>
+            </a>
+          ) : null}
+          {linkedIn ? (
+            <a
+              className="author-card__socials__anchor"
+              target="_blank"
+              href={linkedIn}
+            >
+              <Icon name={"LINKEDIN"}></Icon>
+            </a>
+          ) : null}
+        </section>
       </section>
     );
   };
@@ -60,7 +84,7 @@ const page = () => {
         convallis elit, vitae finibus enim. Nullam eget leo eget purus pharetra
         scelerisque. Sed at risus in dolor faucibus viverra a et odio.
       </p>
-      <section className="writers flex mt-10 ">
+      <section className="writers">
         <AuthorCard {...authorList[1]} />
         <AuthorCard {...authorList[0]} />
       </section>
