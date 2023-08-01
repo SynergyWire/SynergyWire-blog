@@ -18,7 +18,7 @@ const page = () => {
     {
       name: "Mateo Sierra",
       pictureUrl: "https://avatars.githubusercontent.com/u/71465895?v=4",
-      introduction: "I am a 🤡",
+      introduction: "Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple ",
       socials: {
         linkedIn: "https://www.linkedin.com/in/mateo-sierra-4b70951b7/",
         github: "https://github.com/Sierra9999",
@@ -26,7 +26,7 @@ const page = () => {
     },
     {
       name: "Luis Alexander",
-      introduction: "I am a 🤡",
+      introduction: "Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple ",
       pictureUrl: "https://avatars.githubusercontent.com/u/26258524?v=4",
       socials: {
         linkedIn: "https://www.linkedin.com/in/luis-alexander-b83478184/",
@@ -39,7 +39,7 @@ const page = () => {
     const { github, linkedIn } = author.socials;
 
     return (
-      <section className="author-card w-5/12">
+      <section className="author-card">
         <h2 className="author-card__name">{author.name}</h2>
         <img
           src={author.pictureUrl}
@@ -72,18 +72,19 @@ const page = () => {
   };
 
   return (
-    <main>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo
-        vel risus fringilla finibus vitae nec sapien. Etiam non mi sapien. Nulla
-        facilisi. Proin ac rhoncus massa. Quisque fringilla sem ac ligula
-        maximus, eu commodo sapien efficitur. Nam non tortor quis metus
-        venenatis tincidunt. Ut maximus, purus id fermentum tincidunt, neque
-        libero convallis urna, sit amet lacinia odio nunc a risus. Sed blandit
-        metus quis quam ultrices, vitae dapibus tellus consequat. Nullam vel
-        convallis elit, vitae finibus enim. Nullam eget leo eget purus pharetra
-        scelerisque. Sed at risus in dolor faucibus viverra a et odio.
+    <main  >
+      <p className="about-paragraph">
+        At SynergyWire, we're on an enchanting journey through the world of
+        software development, we enjoy growing in knowledge, sharing and helping
+        other developers in their daunting chase for guidance in this colosal,
+        fluctuating and unpredictible industry.
       </p>
+      <p className="about-paragraph">
+        Wether you are a beginner or you had several experiences in the art of
+        software development, we believe constant growth in knowledge and skills
+        is a must to stay relevant in this realm, a software developer who is not exploring new tools and honing the ones already at disposition will eventually start experiencing undesired consequences 
+      </p>
+      <h2 className="about-authors" >About the authors</h2>
       <section className="writers">
         <AuthorCard {...authorList[1]} />
         <AuthorCard {...authorList[0]} />
