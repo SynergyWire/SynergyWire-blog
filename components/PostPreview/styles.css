@@ -1,0 +1,51 @@
+.list__item .post-preview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list__items .post-preview-card__image-preview {
+  height: 300px;
+}
+
+.post-preview-card__tags::-webkit-scrollbar {
+  scrollbar-width: none;
+  scroll-padding: 0;
+}
+
+.post-preview-card__point-separator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 6px;
+}
+
+@media only screen and (min-width: 540px) {
+  .list__items .post-preview-card__image-preview {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .list__items--highlight .list__item--vertical .post-preview-card__image-preview {
+    height: calc(100% - 130px);
+  }
+  .list__items--highlight .list__item--horizontal .post-preview-card__image-preview {
+    height: 140px;
+  }
+
+  :where(.list__items--highlight.list__items--4)
+  .list__item:where(.list__item:nth-child(2), .list__item:nth-child(3), .list__item:nth-child(4))
+  .post-preview-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  :where(.list__items--highlight.list__items--4)
+  .list__item:where(.list__item:nth-child(2), .list__item:nth-child(3), .list__item:nth-child(4))
+  .post-preview-card > div {
+    width: 50%;
+  }
+}
