@@ -422,7 +422,7 @@ function App() {
 
 ![product-search-error-boundary-working.gif](/images/articles/react-error-handling/product-search-error-boundary-working.gif)
 
-We did it, all is working as expected (you can test the other scenarios by your own). 
+We did it, all is working as expected (you can test the other scenarios on your own). 
 
 > **_NOTE:_**  You could find the whole example on [this repository](https://github.com/SynergyWire/react-error-boundary-app)
 
