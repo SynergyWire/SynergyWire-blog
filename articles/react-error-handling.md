@@ -47,7 +47,7 @@ async function makeRequest(productId: string): Promise<ProductData> {
 }
 ```
 
-As might be seen this function is returning a promise which activates a setTimeout and this one evals if there is a product corresponding to the productId passed as prop in the products record, thus it resolves the promise with a static product data, on the other hand the promise gets rejected with custom message.
+As might be seen this function is returning a promise which activates a setTimeout and this one evals if there is a product corresponding to the productId passed as prop in the products record, thus it resolves the promise with a static product data, on the other hand the promise gets rejected with a custom message.
 
 Well, we could bring this to react's world with a practical example as follows:
 
