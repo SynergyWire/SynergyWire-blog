@@ -24,7 +24,7 @@ main {
     flex-direction: column;
     align-items: center;
   }
-  .author-card{
+  .author-card {
     width: 80%;
     margin-bottom: 2rem;
   }
