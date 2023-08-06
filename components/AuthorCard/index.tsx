@@ -1,6 +1,6 @@
-import React from 'react';
-import Icon from '@/components/icons/Icon';
-import './styles.css';
+import React from 'react'
+import Icon from '@/components/icons/Icon'
+import './styles.css'
 
 export interface Author {
   name: string;
