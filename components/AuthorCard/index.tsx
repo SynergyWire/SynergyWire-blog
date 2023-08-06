@@ -14,7 +14,7 @@ export interface Author {
 }
 
 export const AuthorCard = (author: Author) => {
-  const { github, linkedIn } = author.socials;
+  const { github, linkedIn } = author.socials
 
   return (
     <section className="author-card">
