@@ -1,0 +1,31 @@
+main {
+  padding-bottom: 4rem;
+}
+
+.writers {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.about-paragraph {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.about-authors {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0rem 4rem 0rem;
+}
+
+@media screen and (max-width : 600px) {
+  .writers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .author-card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
