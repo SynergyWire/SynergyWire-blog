@@ -110,7 +110,7 @@ Awesome, we are done and searching is working as expected. Thank you for getting
 
 ![wait-a-minute.jpg](/images/memes/wait-a-minute.jpg)
 
-Yeah, you are right what if we passed a productId that does not exist on the products record.
+Yes. you are right, what if we passed a productId that does not exist on the products record.
 
 ![product-search-uncaught-error.gif](/images/articles/react-error-handling/product-search-uncaught-error.gif)
 
