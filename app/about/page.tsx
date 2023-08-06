@@ -47,7 +47,7 @@ const page = () => {
         <AuthorCard {...authorList[0]} />
       </section>
     </main>
-  );
-};
+  )
+}
 
 export default page
