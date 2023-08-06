@@ -364,7 +364,7 @@ So, the takeaway is to know that after a thrown error the resetKeys should be up
 
 ![sweated-guy.jpg](/images/memes/sweated-guy.jpg)
 
-We have to make some changes if we want our app to be finally working. First of all let's remove the useEffect we can handle all directly on the getProductData function getting internally the input's value so this also implies removing its wrapper useCallback and the state productId, let's see how this looks like in code:
+We have to make some changes if we want our app to be finally working. First of all let's remove the useEffect so we can handle all directly on the getProductData function getting internally the input's value, this also implies removing its wrapper useCallback and the state productId, let's see how this looks like in code:
 
 ```tsx
 function App() {
