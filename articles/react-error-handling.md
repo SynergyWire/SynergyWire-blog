@@ -428,7 +428,7 @@ We did it, all is working as expected (you can test the other scenarios on your 
 
 ## Conclusion
 
-This pattern is a powerful tool we can use it to solve uncaught errors. By the way, you could have as many ErrorBoundary as you want, we are only using one in this example but we could have used another one to wrap the search component if we would have wanted to (We let you take this topic at the next level). Remember every tool has the power of either help or complicate us so it's on our own decide what to use how to use it. 
+This pattern is a powerful tool we can use to solve uncaught errors. By the way, you could have as many ErrorBoundary as you want, we are only using one in this example but we could have used another one to wrap the search component if we would have wanted to (We will let you take this topic at the next level). Remember every tool has the power of either help us or make things more complicated, so it's on our own to decide what to use and how to use it. 
 
 
 
