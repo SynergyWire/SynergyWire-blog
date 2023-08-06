@@ -297,7 +297,7 @@ function ErrorFallback ({ error }: ErrorFallbackProps) {
 }
 ```
 
-We are showing the exact thrown error message but if you would rather show another one you could do it. We are also executing a customHook to get a reset function and this is connected with a function that we can pass directly in the component ErrorBoundary like this.
+We are showing the exact thrown error message, but if you would rather show another one you could do it. We are also executing a customHook to get a reset function and this is connected with a function that we can pass directly in the component ErrorBoundary like this.
 
 ```tsx
 <ErrorBoundary FallbackComponent={ErrorFallback} onReset={getProductData}>
