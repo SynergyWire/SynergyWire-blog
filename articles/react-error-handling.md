@@ -360,7 +360,7 @@ Implementing this feature is quite easy, we just need to pass a new prop. Let's 
 
 Did you get it? The first error is thrown as we set it, then hitting the search button does not work but if we change the input's value and hit the button it will work. Well, we need to review the search button's handler, it is taking the inputRef's value and then setting it as the productId value. If you take a look back at the outcome we are hitting the search button with the same productId (the state has not changed) so the ErrorBoundary does not have to reset its state due to resetKeys prop has not changed. On the other hand when we change the input's value it counts as a change and ErrorBoundary will reset it.
 
-So, the takeaway is to know that after a thrown error the resetKeys should be updated? Yeah, that's right. A comoon approach is to have a reset button (our ty again) inside the fallBack component so this button will reset the state and not re make the request as we do (I invite you to do the needed updates to run the common approach). But you know what? Let's keep having our current approach, we are warriors and we are not afraid of anything.
+So, the takeaway is to know that after a thrown error the resetKeys should be updated? Yeah, that's right. A common approach is to have a reset button instead of a try again button inside the fallBack component so this button will reset the state and not re-make the request as we do (I suggest you to do the needed updates to run the common approach). But you know what? Let's keep having our current approach, we are warriors and we are not afraid of anything.
 
 ![sweated-guy.jpg](/images/memes/sweated-guy.jpg)
 
