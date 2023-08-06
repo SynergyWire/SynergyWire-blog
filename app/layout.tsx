@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import Head from 'next/head'
 import '../styles/globals.css'
 
 
@@ -18,14 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <title>SynergyWire Blog</title>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <link rel="icon" href="/next.svg" />
-      </Head>
       <body>
       <Header />
-        <main className="mx-auto max-w-3xl min-h-screen px-6 pt-6 flex flex-col">
+        <main className="mx-auto max-w-screen-xl min-h-screen px-6 pt-6 flex flex-col">
           <div className="py-6">
             {children}
           </div>

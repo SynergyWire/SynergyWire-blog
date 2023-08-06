@@ -21,6 +21,10 @@
   margin: 0 6px;
 }
 
+.post-preview-card__short-description {
+  min-height: 40px;
+}
+
 @media only screen and (min-width: 540px) {
   .list__items .post-preview-card__image-preview {
     height: 200px;
@@ -31,9 +35,10 @@
   .list__items--highlight .list__item--vertical .post-preview-card__image-preview {
     height: calc(100% - 130px);
   }
-  .list__items--highlight .list__item--horizontal .post-preview-card__image-preview {
-    height: 140px;
-  }
+
+  /* .list__items--highlight .list__item--horizontal .post-preview-card__image-preview {
+    height: 200px;
+  } */
 
   :where(.list__items--highlight.list__items--4)
   .list__item:where(.list__item:nth-child(2), .list__item:nth-child(3), .list__item:nth-child(4))
