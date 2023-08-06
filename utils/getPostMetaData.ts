@@ -22,5 +22,5 @@ export default function getPostMetaData(): PostMetaData[] {
       image: isThereImagePreview ? previewImageRoute : '/images/default-image-post-preview.jpg',
       slug
     }
-  })
+  }).sort((postA, postB) => new Date(postB.date).getTime() - new Date(postA.date).getTime())
 }
