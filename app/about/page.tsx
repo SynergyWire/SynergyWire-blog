@@ -24,7 +24,7 @@ const page = () => {
         github: "https://github.com/calixfar",
       },
     },
-  ];
+  ]
 
   return (
     <main>
