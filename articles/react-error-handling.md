@@ -106,7 +106,7 @@ The result looks like this:
 
 ![product-search-happy-path.gif](/images/articles/react-error-handling/product-search-happy-path.gif)
 
-Awesome, we are done the search is working as expected. Thank you for getting here. See you in other article.
+Awesome, we are done and searching is working as expected. Thank you for getting here. See you in the next article.
 
 ![wait-a-minute.jpg](/images/memes/wait-a-minute.jpg)
 
