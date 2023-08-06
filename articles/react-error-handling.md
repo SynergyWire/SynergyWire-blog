@@ -225,7 +225,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 
 ![product-search-error-boundary-fallback.gif](/images/articles/react-error-handling/product-search-error-boundary-fallback.gif)
 
-But wait, the uncaught error alert is still being thwron. Is'not this the problem we will solve? Yeah, it is. We are at development mode (using the react's dev libraries) so react throws that error by default it can not be hidden what it did change is the result after closing that alert, our component is still there and we can keep interacting somehow (at production the error alert is not shown, the benefits of ErrorBoundary are way more appreciable).
+But wait, the uncaught error alert is still being thrown. Isn't this the problem we will solve? Yeah, it is. We are at development mode (using the react's dev libraries) so react throws that error by default it can not be hidden, what it did change is the result after closing that alert, our component is still there and we can keep interacting with it somehow (at production, the error alert is not shown, the benefits of ErrorBoundary are way more appreciable).
 
 Before implementing ErrorBoundary if our component crashed the error alert would be shown and the page gets empty. There is a big difference in terms of how our component behaves now.
 
