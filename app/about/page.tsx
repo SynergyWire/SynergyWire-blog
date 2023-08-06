@@ -15,7 +15,7 @@ const page = () => {
       },
     },
     {
-      name: "Luis Alexander",
+      name: "Luis Santiago",
       introduction:
         "Experienced system engineer specialized in development, adept at leading projects, analyzing challenges, and delivering exceptional results. Passionate problem-solver.",
       pictureUrl: "https://avatars.githubusercontent.com/u/26258524?v=4",
