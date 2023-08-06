@@ -22,8 +22,8 @@ const page = () => {
       socials: {
         linkedIn: "https://www.linkedin.com/in/luis-alexander-b83478184/",
         github: "https://github.com/calixfar",
-      },
-    },
+      }
+    }
   ]
 
   return (
