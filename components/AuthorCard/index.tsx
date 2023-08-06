@@ -38,7 +38,7 @@ export const AuthorCard = (author: Author) => {
             className="author-card__socials__anchor"
             target="_blank"
             href={linkedIn}>
-            <Icon name={"LINKEDIN"}></Icon>
+            <Icon name={"LINKEDIN"} />
           </a>
         ) : null}
       </section>
