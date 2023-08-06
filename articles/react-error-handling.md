@@ -336,7 +336,7 @@ It's time to test our application:
 
 ![product-search-error-boundary-try-again.gif](/images/articles/react-error-handling/product-search-error-boundary-try-again.gif)
 
-It works fine, every time we got and error the Fallback component is shown and we could execute the reset function that makes the request once again then the components passed as chidren are re mounted.
+It works fine, every time we got an error the Fallback component is shown and we could execute the reset function that makes the request once again, then the components passed as children are re mounted.
 
 Let's analyze the following outcome: 
 
