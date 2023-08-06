@@ -354,7 +354,7 @@ Fallback component is shown but hitting the search button does not do anything, 
 </ErrorBoundary>
 ```
 
-Implementing this feature is quite easy we just need to pass a new prop. Let's see the outcome:
+Implementing this feature is quite easy, we just need to pass a new prop. Let's see the outcome:
 
 ![product-search-error-boundary-reset-key.gif](/images/articles/react-error-handling/product-search-error-boundary-reset-key.gif)
 
