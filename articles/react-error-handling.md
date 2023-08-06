@@ -205,7 +205,7 @@ The casting on the last line is to not update any ts interface. If we review our
 
 ![product-search-uncaught-product-reference-error.gif](/images/articles/react-error-handling/product-search-uncaught-product-reference-error.gif)
 
-May it be our error? Yes, it may. Must we create a ticket to the backend team? As soon as possible please. While the error gets solved let's review the error handling pattern installing the next [dependecy](https://www.npmjs.com/package/react-error-boundary).
+Could it be our mistake? Yes, it could. Must we create a ticket to the backend team? As soon as possible please. While the error gets solved let's review the error handling pattern installing the next [dependency](https://www.npmjs.com/package/react-error-boundary).
 
 ```cmd
 npm install react-error-boundary
