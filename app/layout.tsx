@@ -4,7 +4,6 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import '../styles/globals.css'
 
-
 export const metadata: Metadata = {
   title: "SynergyWire Blog",
   description: 'A blog dedicated to web development and programming in general',
