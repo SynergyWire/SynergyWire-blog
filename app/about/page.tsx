@@ -1,6 +1,6 @@
-import React from 'react';
-import { Author, AuthorCard } from '../../components/AuthorCard';
-import './styles.css';
+import React from 'react'
+import { Author, AuthorCard } from '../../components/AuthorCard'
+import './styles.css'
 
 const page = () => {
   const authorList: Author[] = [
