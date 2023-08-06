@@ -10,7 +10,7 @@ export interface Author {
     linkedIn?: string
     github?: string
     personalWebsite?: string
-  };
+  }
 }
 
 export const AuthorCard = (author: Author) => {
