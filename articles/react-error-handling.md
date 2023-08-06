@@ -201,7 +201,7 @@ const products = {
   }
 } as unknown as Record<string, ProductData>
 ```
-The casting on the last line is to not update any ts interface. If we review our frontend result, we get the following:
+The casting on the last line is to not update any ts interface. If we review our front-end result, we'll get the following:
 
 ![product-search-uncaught-product-reference-error.gif](/images/articles/react-error-handling/product-search-uncaught-product-reference-error.gif)
 
