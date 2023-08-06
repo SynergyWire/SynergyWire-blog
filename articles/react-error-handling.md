@@ -342,7 +342,7 @@ Let's analyze the following outcome:
 
 ![product-search-error-boundary-reset.gif](/images/articles/react-error-handling/product-search-error-boundary-reset.gif)
 
-Fallback component is shown but hitting the search button does not do anything looking at our button's handler we will notice we are taking the inputRef's value and setting it in the state productId. Well ErrorBoundary has an approach passing the prop `resetKeys`, its value will be a key (it could be our productId) and every time this key changes ErrorBoundary will reset its internal state. There is something we should keep in mind but let's figure it out by implement it and then analyze it:
+Fallback component is shown but hitting the search button does not do anything, looking at our button's handler we will notice we are taking the inputRef's value and setting it in the state productId. Well ErrorBoundary has an approach passing the prop `resetKeys`, its value will be a key (it could be our productId) and every time this key changes, ErrorBoundary will reset its internal state. There is something we should keep in mind but let's figure it out by implementing and then analyzing it:
 
 ```tsx
 <ErrorBoundary 
