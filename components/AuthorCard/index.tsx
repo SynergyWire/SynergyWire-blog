@@ -30,7 +30,7 @@ export const AuthorCard = (author: Author) => {
             className="author-card__socials__anchor"
             target="_blank"
             href={github}>
-            <Icon name={"GITHUB"}></Icon>
+            <Icon name={"GITHUB"} />
           </a>
         ) : null}
         {linkedIn ? (
