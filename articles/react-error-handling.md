@@ -330,7 +330,7 @@ React.useEffect(() => {
 }, [getProductData])
 ```
 
-We isolated the logic of making the request and updating the status in a function so we can re use it inside the useEffect and outside as we do passing it as prop. By the way, the function is wrapped in an useCallback to be only updated in case productId changed.
+We isolated the logic of making the request and updating the status in a function so we can re-use it inside the useEffect and outside as we do passing it as prop. By the way, the function is wrapped in an useCallback to be only updated in case productId changed.
 
 It's time to test our application:
 
