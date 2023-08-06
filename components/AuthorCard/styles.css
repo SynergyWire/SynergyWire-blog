@@ -45,7 +45,7 @@
     margin: 0.5rem 0.5rem;
 }
 
-.author-card__socials__anchor>svg {
+.author-card__socials__anchor > svg {
     height: 30px;
     width: 30px;
 }
