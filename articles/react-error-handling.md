@@ -184,7 +184,7 @@ function App() {
 ![product-search-whole-flow.gif](/images/articles/react-error-handling/product-search-whole-flow.gif)
 
 
-It works on a way better organized :). 
+It works on a way better and organized way :). 
 
 Getting to the point of this whole post what if the backend team makes some release on the API and some productReference's value is no longer being returned (if you are a backend developer and you are reading this, don't hesitate; this is just for testing purpose you are the best of the best). This affects our new functionality to show some product details based on the productReference. Let's take a look how this behaves, we will not actually change anything but removing a productReference's value.
 
