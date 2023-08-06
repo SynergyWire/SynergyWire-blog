@@ -280,7 +280,7 @@ const productDetails: Record<string, Record<string, string>> = {
 }
 ```
 
-We just created the makeRequestClosure with a variable count initialized in 0 and it will increment its value every time a product is found. If count is greater than 0 the productReference is added to the product and the promise is inmediately resolved (If you want to dive deep into closure please at this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) or let us know if you want us to do an article about it).
+We just created the makeRequestClosure with a variable count initialized at 0 and it will increment its value every time a product is found. If count is greater than 0 the productReference is added to the product and the promise is immediately resolved (If you want to dive deep into closures please  take a look at the next [post](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) or let us know if you want us to do an article about it).
 
 Done that, we will create a new component called ErrorFallback and this one will receive some props passed by ErrorBoundary.
 
