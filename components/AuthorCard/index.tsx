@@ -3,13 +3,13 @@ import Icon from '@/components/icons/Icon'
 import './styles.css'
 
 export interface Author {
-  name: string;
-  pictureUrl: string;
-  introduction: string;
+  name: string
+  pictureUrl: string
+  introduction: string
   socials: {
-    linkedIn?: string;
-    github?: string;
-    personalWebsite?: string;
+    linkedIn?: string
+    github?: string
+    personalWebsite?: string
   };
 }
 
