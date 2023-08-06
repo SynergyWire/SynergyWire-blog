@@ -227,7 +227,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 
 But wait, the uncaught error alert is still being thrown. Isn't this the problem we will solve? Yeah, it is. We are at development mode (using the react's dev libraries) so react throws that error by default it can not be hidden, what it did change is the result after closing that alert, our component is still there and we can keep interacting with it somehow (at production, the error alert is not shown, the benefits of ErrorBoundary are way more appreciable).
 
-Before implementing ErrorBoundary if our component crashed the error alert would be shown and the page gets empty. There is a big difference in terms of how our component behaves now.
+Before implementing ErrorBoundary, if our component crashed the error alert would be shown and the page gets empty. There is a big difference in terms of how our component behaves now.
 
 Before taking ErrorBoundary further let's make a tiny change in our `makeRequest` function so our function will return wrong data once, for the rest of the request the data will be right.
 
