@@ -1,11 +1,24 @@
 .responsive-menu {
   display: none;
 }
+.header-links{
+  position: relative;
+  top: 12px;
+}
+.header-socials {
+  position: relative;
+  top: 10px;
+}
 
 @media screen and (max-width : 640px) {
   .organization-link,
   .header-links {
-    display: none;
+    visibility: hidden;
+  }
+
+  .home {
+    text-align: center;
+    margin-left: 7VW;
   }
 
   .responsive-menu {
@@ -15,6 +28,10 @@
 
   #toggle-button {
     display: none;
+  }
+  .responsive-menu__icon-switch{
+    position: relative;
+    bottom: 6px;
   }
 
   .responsive-menu__content {

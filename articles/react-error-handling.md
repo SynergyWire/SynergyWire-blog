@@ -1,6 +1,6 @@
 ---
 title: "Avoiding uncaught errors using ErrorHandling pattern"
-subtitle: "Using ErrorBounday as a patter to avoid uncaught errors""
+subtitle: "Using ErrorBounday as a patter to avoid uncaught errors"
 date: "2023-04-20"
 tags: "#react #typescript #errorHandling"
 author: "Luis Santiago"
