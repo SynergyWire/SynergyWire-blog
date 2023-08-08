@@ -28,7 +28,7 @@ const page = () => {
   ]
 
   return (
-    <main>
+    <>
       <p className="about-paragraph">
         At SynergyWire, we're on an enchanting journey through the world of
         software development, we enjoy growing in knowledge in order to share
@@ -47,7 +47,7 @@ const page = () => {
         <AuthorCard {...authorList[1]} />
         <AuthorCard {...authorList[0]} />
       </section>
-    </main>
+    </>
   )
 }
 
