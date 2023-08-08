@@ -27,7 +27,7 @@ Compound components will bring some order to your code, this will ensure your co
 
 Imagine you are developing a card component for an E-commerce website, this component will have a title, a description and a price, just like in this picture: 
 
-![card-component.jpeg](/images/articles/compound-component-pattern/card-component.jpeg)
+![card-component.jpeg](/images/articles/compound-component-pattern-101/card-component.jpeg)
 
 Most likely you will come up with a component just like this one:
 
@@ -66,7 +66,7 @@ export default Card
 
 But then you look at the website's design and there is more than one type of card, you also have a card without a description : 
 
-![card-component-simple.jpeg](/images/articles/compound-component-pattern/card-component-simple-60.jpeg)
+![card-component-simple.jpeg](/images/articles/compound-component-pattern-101/card-component-simple-60.jpeg)
 
 Most of the time developers would add more complexity to their current component, making it more bloated than neccesary, like adding conditional rendering on the paragraph holding the description and also another conditional which will change the classes and apply a different css depending if the description argument was passed or not, or even WORSE there is the option of creating two distinct components for this two designs (one with the description, another one without it), this can easily be avoided if you create a compound component.
 

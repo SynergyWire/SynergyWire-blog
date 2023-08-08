@@ -1,5 +1,6 @@
 import React from 'react'
-import { Author, AuthorCard } from '../../components/AuthorCard'
+import { AuthorCard } from '../../components/AuthorCard'
+import { Author } from '@/interfaces/Author'
 import './styles.css'
 
 const page = () => {
@@ -27,7 +28,7 @@ const page = () => {
   ]
 
   return (
-    <main>
+    <>
       <p className="about-paragraph">
         At SynergyWire, we're on an enchanting journey through the world of
         software development, we enjoy growing in knowledge in order to share
@@ -46,7 +47,7 @@ const page = () => {
         <AuthorCard {...authorList[1]} />
         <AuthorCard {...authorList[0]} />
       </section>
-    </main>
+    </>
   )
 }
 

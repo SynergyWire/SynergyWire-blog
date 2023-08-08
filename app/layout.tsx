@@ -19,8 +19,10 @@ export default function RootLayout({
       <body>
       <Header />
         <main className="mx-auto max-w-screen-xl min-h-screen px-6 pt-6 flex flex-col">
-          <div className="py-6">
-            {children}
+          <div className="py-6 flex justify-center">
+            <main>
+             {children}
+            </main>
           </div>
           <Footer />
         </main>
