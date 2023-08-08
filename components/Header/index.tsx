@@ -9,7 +9,7 @@ export default function Header() {
   const HeaderLinks: HeaderLink[] = [
     {
       text: 'About',
-      href: './about'
+      href: '/about'
     }
   ]
 
@@ -37,8 +37,8 @@ export default function Header() {
       <label className="responsive-menu" htmlFor="toggle-button">
         <input type="checkbox" id="toggle-button" />
         <div className="responsive-menu__icon-switch">
-          <Icon name={ICON_KEYS.MENU} ></Icon>
-          <Icon name={ICON_KEYS.CLOSE} ></Icon>
+          <Icon name={ICON_KEYS.MENU} />
+          <Icon name={ICON_KEYS.CLOSE}/>
         </div>
         <ul className="responsive-menu__content bg-white">
           <li>

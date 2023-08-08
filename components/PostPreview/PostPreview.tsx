@@ -4,7 +4,6 @@ import { PostMetaData } from '@/interfaces/PostMetaData'
 import './styles.css'
 
 export function PostPreview(props: PostMetaData) {
-  console.log(props.tags)
   return (
     <Link href={`/posts/${props.slug}`} className="h-full block">
       <div className="post-preview-card h-full">
