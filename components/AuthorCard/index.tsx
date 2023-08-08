@@ -12,11 +12,11 @@ export const AuthorCard = (author: Author) => {
     <section className="author-card">
       <h2 className="author-card__name">{author.name}</h2>
       <Image
-      width={200}
-      height={200}
+        width={200}
+        height={200}
         src={author.pictureUrl}
         alt={`${author.name}'s profile picture on github`}
-        className="author-card__picture"/>
+        className="author-card__picture" />
       <p className="author-card__introduction">{author.introduction}</p>
       <section className="author-card__socials">
         {github ? (

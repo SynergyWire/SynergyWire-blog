@@ -1,10 +1,12 @@
 .responsive-menu {
   display: none;
 }
-.header-links{
+
+.header-links {
   position: relative;
   top: 12px;
 }
+
 .header-socials {
   position: relative;
   top: 10px;
@@ -29,7 +31,8 @@
   #toggle-button {
     display: none;
   }
-  .responsive-menu__icon-switch{
+
+  .responsive-menu__icon-switch {
     position: relative;
     bottom: 6px;
   }
