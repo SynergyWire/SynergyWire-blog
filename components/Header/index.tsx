@@ -26,7 +26,7 @@ export default function Header() {
       <h1 className="home text-2xl font-bold hover:text-yellow-600 text-center">
         <Link href="/">Synergy Wire Blog </Link>
       </h1>
-      <div className='header-socials'>
+      <div className="header-socials">
         <Link
           className="text-slate-400 organization-link"
           href="https://github.com/SynergyWire"
