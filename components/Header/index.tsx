@@ -14,7 +14,7 @@ export default function Header() {
   ]
 
   const mapLinks = HeaderLinks.map(({ text, href }: HeaderLink) => (
-    <Link className="font-bold p1 hover:text-yellow-600" href={href}>
+    <Link className={`font-bold p1 hover:text-yellow-600 `} href={href}>
       {text}
     </Link>))
 

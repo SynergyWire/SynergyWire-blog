@@ -1,5 +1,6 @@
 import React from 'react'
-import { Author, AuthorCard } from '../../components/AuthorCard'
+import { AuthorCard } from '../../components/AuthorCard'
+import { Author } from '@/interfaces/Author'
 import './styles.css'
 
 const page = () => {
