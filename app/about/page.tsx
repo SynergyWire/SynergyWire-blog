@@ -30,7 +30,7 @@ const page = () => {
   return (
     <>
       <p className="about-paragraph">
-        At SynergyWire, we're on an enchanting journey through the world of
+        At SynergyWire, we are on an enchanting journey through the world of
         software development, we enjoy growing in knowledge in order to share
         and help other developers in their daunting chase for guidance in this
         colossal, fluctuating and unpredictable industry.
