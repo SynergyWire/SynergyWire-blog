@@ -1,0 +1,58 @@
+.author-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 0.5rem;
+    padding: 0px 20px;
+    width: 45%;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(193, 193, 193, 0.98);
+    min-height: 500px;
+    text-align: center;
+}
+
+.author-card__name {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0px;
+}
+
+.author-card__picture {
+    width: 80%;
+    border-radius: 50%;
+    margin: 1rem 0px;
+    border-bottom: 1px solid black;
+}
+
+.author-card__introduction {
+    margin: 1rem 0px;
+    word-wrap: break-word;
+    min-height: 120px;
+}
+
+.author-card__socials {
+    box-shadow: 0px 0px 2px black;
+    border-radius: 0.5rem;
+    width: 80%;
+    margin: 1rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.author-card__socials__anchor {
+    margin: 0.5rem 0.5rem;
+}
+
+.author-card__socials__anchor > svg {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width : 600px) {
+    .author-card {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
