@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <Header />
-        <main className="mx-auto max-w-screen-xl min-h-screen py-6">
+        <main className="mx-auto max-w-screen-xl min-h-screen p-6">
              {children}
           <Footer />
         </main>

@@ -28,7 +28,7 @@ const page = () => {
   ]
 
   return (
-    <article className='max-w-5xl prose-quoteless m-auto pb-8'>
+    <article className='max-w-4xl m-auto text-center pb-12'>
       <p className="about-paragraph">
         At SynergyWire, we are on an enchanting journey through the world of
         software development, we enjoy growing in knowledge in order to share
