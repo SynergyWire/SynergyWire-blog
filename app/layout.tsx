@@ -18,10 +18,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <Header />
-        <main className="mx-auto max-w-screen-xl min-h-screen px-6 pt-6 flex flex-col">
-          <div className="py-6">
+        <main className="mx-auto max-w-screen-xl min-h-screen px-6 pt-6">
              {children}
-          </div>
           <Footer />
         </main>
         <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_KEY}`} />

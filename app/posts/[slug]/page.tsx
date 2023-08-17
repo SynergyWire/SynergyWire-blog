@@ -32,7 +32,7 @@ export default function PostPage(props: Props) {
   })
 
   return (
-    <article className="prose prose-slate prose-a:text-yellow-600 max-w-3xl prose-quoteless">
+    <article className="prose prose-slate prose-a:text-yellow-600 max-w-3xl prose-quoteless m-auto pt-8 ">
       <div>
         <h1 className="text-slate-800 mb-3">{postContent.data.title}</h1>
         <div className="flex items-center">
