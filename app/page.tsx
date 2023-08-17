@@ -12,7 +12,7 @@ const Page = function () {
 
   const shouldShowAllPost = postMetaData.length > 4
   return (
-    <div>
+    <div className='pb-10'>
       <List type="highlight" title="Recent posts">
         {renderPostPreviews(shouldShowAllPost ? postMetaData.slice(0, 4) : postMetaData)}
       </List>
