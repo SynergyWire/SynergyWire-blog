@@ -1,12 +1,12 @@
 ---
 title: "CSS Modules 101: Beyond Traditional CSS"
 subtitle: "CSS Modules 101: Beyond Traditional CSS"
-date: "2023-08-14"
+date: "2023-08-16"
 tags: "#CSS #Styling #React"
 author : "Mateo Sierra"
 ---
 
-![card-component.jpeg](/images/articles/css-modules-101/preview.JPG)
+![preview.jpg](/images/articles/css-modules-101/preview.jpg)
 
 CSS is a tool that has defined the web as we know it. We simply couldn't create the web as it is without it. Thanks to CSS, nowadays we can change the appearance of elements, apply color theory to create unique brands, implement responsiveness to engage as many users as possible with our app, and infuse life and energy through effects like hover and animations. If you're clever enough, you can even alter the way the UI functions!
 
