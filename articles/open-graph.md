@@ -23,3 +23,5 @@ Your posts will be more engaging if they include some kind of media on it, if yo
 
 Most users go speed reading through their feed and even if they spot the link to the product you are selling, there is a chance they won't click on it. nowadays people are worried more than ever of clicking the wrong link and getting their information stolen by some shady hacker, we want to be trusted by users and one of the easiest ways to earn it is by displaying what we are sharing is about beforehand.
 
+## how to implement twitter cards
+
